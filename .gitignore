@@ -1,0 +1,69 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+dist-ssr/
+*.local
+
+# Environment files (contain secrets)
+.env
+.env.local
+.env.*.local
+
+# Database
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE/Editor
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+*~
+
+# Test coverage
+coverage/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Lock files (keep bun.lock, ignore npm/yarn)
+package-lock.json
+yarn.lock
+
+# Private/internal docs (not for public repo)
+DEPLOYMENT.md
+.claude/
+CLAUDE.md
+
+# Development docs (keep only public README)
+server/README.md
+server/ARCHITECTURE.md
+server/IMPLEMENTATION_SUMMARY.md
+server/QUICKSTART.md
+

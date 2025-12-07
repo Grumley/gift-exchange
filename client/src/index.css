@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+@import "./tailwind.config.css";
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  body {
+    background: radial-gradient(circle at top, #7f0909, #4a0404);
+    min-height: 100vh;
+    color: var(--color-foreground);
+    font-family: system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}

@@ -1,0 +1,26 @@
+interface LoadingSpinnerProps {
+  message?: string;
+  size?: 'sm' | 'md' | 'lg';
+  className?: string;
+}
+
+const sizeClasses = {
+  sm: 'h-6 w-6',
+  md: 'h-12 w-12',
+  lg: 'h-16 w-16',
+};
+
+export function LoadingSpinner({
+  message,
+  size = 'md',
+  className = '',
+}: LoadingSpinnerProps) {
+  return (
+    <div className={`flex flex-col items-center justify-center ${className}`}>
+      <div
+        className={`animate-spin rounded-full border-b-2 border-[#1a472a] ${sizeClasses[size]}`}
+      />
+      {message && <p className="mt-4 text-gray-600">{message}</p>}
+    </div>
+  );
+}
