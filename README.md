@@ -10,6 +10,10 @@ A festive web application for organizing Secret Santa gift exchanges with your f
 | ------------------------------------ | ---------------------------------- |
 | ![My Wishlist](media/mywishlist.png) | ![Gift Ideas](media/giftideas.png) |
 
+| Admin Panel                          |
+| ------------------------------------ |
+| ![Admin Panel](media/adminpanel.png) |
+
 ## Features
 
 - **Secret Match Reveal** - Animated first-time reveal of your Secret Santa recipient
