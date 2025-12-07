@@ -16,6 +16,7 @@ A festive web application for organizing Secret Santa gift exchanges with your f
 
 ## Features
 
+- **Fully Mobile Friendly** - Works great on phones, tablets, and desktops
 - **Secret Match Reveal** - Animated first-time reveal of your Secret Santa recipient
 - **Wishlist Management** - Add Amazon product URLs with automatic title/price/image scraping
 - **Recipient Wishlist** - View your recipient's wishlist to find the perfect gift
