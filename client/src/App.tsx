@@ -106,13 +106,10 @@ function AppRoutes() {
   );
 }
 
-import { SnowOverlay } from '@/components/ui/SnowOverlay';
-
 function App() {
   return (
     <BrowserRouter>
       <AuthProvider>
-        <SnowOverlay />
         <ErrorBoundary>
           <AppRoutes />
         </ErrorBoundary>
