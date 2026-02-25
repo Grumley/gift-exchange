@@ -1,6 +1,6 @@
 # Secret Santa
 
-A festive web application for organizing Secret Santa gift exchanges with your family or friends.
+A non-festive web application for organizing Secret Santa gift exchanges with your family or friends.
 
 | Login                     | My Match                       |
 | ------------------------- | ------------------------------ |
@@ -22,30 +22,6 @@ A festive web application for organizing Secret Santa gift exchanges with your f
 - **Recipient Wishlist** - View your recipient's wishlist to find the perfect gift
 - **Email Notifications** - Participants get notified when matches are made and wishlists updated
 - **Admin Panel** - Manage users, generate random match assignments, reset passwords
-
----
-
-## AI-Assisted Installation (Easiest!)
-
-Let an AI assistant install Secret Santa for you! Works with:
-
-- **[Claude Code](https://claude.ai/code)** - Anthropic's coding assistant
-- **[Gemini CLI](https://github.com/google-gemini/gemini-cli)** - Google's AI terminal
-- **[OpenAI Codex](https://openai.com/codex)** - OpenAI's coding AI
-
-Just open your AI assistant in this project folder and say:
-
-```
-Help me install Secret Santa @AGENTS.md
-```
-
-The AI will:
-
-1. Ask which installation method you prefer (local Docker or cloud)
-2. Check if you have the required software
-3. Set up your configuration file
-4. Create your admin account
-5. Get everything running!
 
 ---
 
